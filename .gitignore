@@ -1,0 +1,57 @@
+# =========================
+# Python 通用忽略规则
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.env/
+
+# 编译输出
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 日志文件
+*.log
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints
+
+# 单元测试缓存
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+
+# =========================
+# IDE 相关
+# =========================
+
+# PyCharm / IntelliJ
+.idea/
+
+# VSCode
+.vscode/
+
+# =========================
+# 系统文件
+# =========================
+.DS_Store
+Thumbs.db
